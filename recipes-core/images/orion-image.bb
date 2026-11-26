@@ -1,7 +1,7 @@
 SUMMARY = "Orion OS — production image for ST STM32MP1"
 DESCRIPTION = "Full image with A/B OTA, gRPC/Protobuf, Orion-HAL, hardware \
 interface tooling, and connectivity."
-HOMEPAGE = "https://github.com/SiliconCentric/Orion-OS"
+HOMEPAGE = "https://github.com/soccentric-orion/Orion-OS"
 LICENSE = "MIT"
 
 require recipes-extended/images/core-image-full-cmdline.bb
