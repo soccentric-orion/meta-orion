@@ -12,7 +12,7 @@ IMAGE_FEATURES += "ssh-server-openssh"
 IMAGE_BOOT_FILES = "kernel/${KERNEL_IMAGETYPE};${KERNEL_IMAGETYPE} kernel/stm32mp157f-dk2.dtb;stm32mp157f-dk2.dtb"
 
 # OTA / swupdate — install the A/B runtime on the STM32MP1 discovery board
-IMAGE_INSTALL:append:stm32mp15-disco = " swupdate swupdate-www orion-swupdate-config"
+IMAGE_INSTALL:append:stm32mp15-disco = " swupdate orion-swupdate-config"
 
 # Home partition init (persistent /home on the data partition)
 IMAGE_INSTALL:append = " orion-data-init"
